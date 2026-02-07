@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Roblox Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="searchBox">
+        <input type="text" name="" id="" class="searchAcc" placeholder="Search someone else">
+        <button class="searchBtn"><img src="assets/send.png" alt="" srcset=""></button>
+    </div>
+    <div class="container">
+        <div class="card profile">
+            <span class="featured-badge verified" style="display: none;">dev friend</span>
+            <span class="featured-badge premium" style="display: none;">⭐ Premium</span>
+            <span class="featured-badge developper" style="display: none;">developper</span>
+            <img id="avatar">
+            <h1 id="username"></h1>
+            <p id="displayName"></p>
+
+            <div id="badges" class="badges">
+                <img id="premiumBadge" src="assets/premium.png"
+                    style="display:none;width: 25px;box-shadow: 0px 0px 10px white;background-color: white;padding: 2px;"
+                    alt="" srcset="">
+                <img id="verifiedBadge" src="assets/verified.png"
+                    style="display:none;width: 25px;box-shadow: 0px 0px 10px white;background-color: white;padding: 2px;border-radius: 50px;"
+                    alt="" srcset="">
+                <img id="administrator" src="assets/administrator.png"
+                    style="display:none;width: 25px;box-shadow: 0px 0px 10px white;background-color: white;padding: 2px;border-radius: 50px;"
+                    alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="card info">
+            <p><strong>User ID :</strong> <span id="userid"></span></p>
+            <p><strong>Création :</strong> <span id="created"></span></p>
+            <p><strong>Description :</strong></p>
+            <p id="description"></p>
+        </div>
+
+        <div class="card stats">
+            <div>
+                <span id="friends"></span>
+                <small>Amis</small>
+            </div>
+            <div>
+                <span id="followers"></span>
+                <small>Followers</small>
+            </div>
+            <div>
+                <span id="following"></span>
+                <small>Following</small>
+            </div>
+        </div>
+
+        <div class="card stats">
+            <div>
+                <small>Community</small>
+                <span id="commbadges">
+                    <img style="display: none;" id="veteran" src="assets/veteran.png" alt="" srcset="">
+                    <img style="display: none;" id="friendship" src="assets/friendship.png" alt="" srcset="">
+                    <img style="display: none;" id="ambasssador" src="assets/ambassador.png" alt="" srcset="">
+                    <img style="display: none;" id="inviter" src="assets/inviter.png" alt="" srcset="">
+                    <img style="display: none;" id="welcometotheclub" src="assets/welcometotheclub.png" alt=""
+                        srcset="">
+                </span>
+            </div>
+            <div>
+                <small>Developer</small>
+                <span id="devbadges">
+                    <img style="display: none;" id="homestead" src="assets/homestead.png" alt="" srcset="">
+                    <img style="display: none;" id="bricksmith" src="assets/bricksmith.png" alt="" srcset="">
+                    <img style="display: none;" id="officialmodelmaker" src="assets/rbxm.png" alt="" srcset="">
+                </span>
+            </div>
+            <div>
+                <small>Gamer</small>
+                <span id="gamebadges">
+                    <img style="display: none;" id="combatinitiation" src="assets/combat.png" alt="" srcset="">
+                    <img style="display: none;" id="warrior" src="assets/warrior.png" alt="" srcset="">
+                    <img style="display: none;" id="bloxxer" src="assets/bloxxer.png" alt="" srcset="">
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

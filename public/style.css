@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 160px;
+    border-radius: 10px;
+}
+
+.profile h1 {
+    margin: 10px 0 0;
+}
+
+.profile p {
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.badges {
+    margin-top: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin: 4px;
+}
+
+.badge.verified {
+    background: #3498db;
+}
+
+.badge.premium {
+    background: #f1c40f;
+    color: #000;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stats span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.stats small {
+    display: block;
+    color: #aaa;
+}
+        .featured-badge {
+            cursor: pointer;
+            background: linear-gradient(135deg, #2985af 0%, #00b7ff 100%);
+            color: #000;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75em;
+            font-weight: bold;
+            text-transform: lowercase;
+            z-index: 1;
+        }
+.card .featured-badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+
+.searchBox {
+    
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.searchAcc {
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: #1e1e1e;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid white;
+}
+
+.searchBtn {
+    background-color: #1e1e1e;
+    border: 1px solid white;
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.searchBtn img {
+    width: 20px;
+}
+
+.premium { background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);}
+.developper { background: linear-gradient(135deg, #74e4197c 0%, #ff00dd4f 100%);}
